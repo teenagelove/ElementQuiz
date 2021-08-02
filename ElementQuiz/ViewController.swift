@@ -134,6 +134,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             } else {
                 answerLabel.text = "❌\nCorrect Aswer: " + elementName
             }
+            textField.text = ""
         case .score:
             answerLabel.text = ""
             print("Your score is \(correctAnswerCount) out of  \(elementList.count).")
